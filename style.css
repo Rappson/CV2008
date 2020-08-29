@@ -217,11 +217,12 @@ li
 {
 	display: flex;
 }
-.container_hobbies
+
+#container_hobbies
 {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 50%;
 	padding-top: 4%;
 	background-color: #B2DFDB;
 }
@@ -246,15 +247,16 @@ li
 	color: #424242;
 }
 
-#container_footer_recommandation
+#container_footer_recommandations 
 {
 	display: flex;
 	flex-direction: column;
 	width: 70%;
 	background-color: #F4F6F7;
+	margin-left: 20%;
 }
 
-.margin-top_0
+.margin_top_0
 {
 	margin-top: 0;
 }
