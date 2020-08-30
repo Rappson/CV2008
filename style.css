@@ -277,3 +277,304 @@ li
 {
 	margin-bottom: 1px;
 }
+
+
+
+
+/*---- responsive ----*/
+
+/*Large screen tablet */
+@media screen and (max-width: 768px)
+{
+
+#picture
+{
+	width: 130px;
+	height: 130px;
+	border: 1px solid #B2BABB;
+}
+
+img
+{
+	width: 130px;
+	height: 130px;
+}
+
+h1
+{
+	font-size: 2rem;
+	padding-left: 5%;
+}
+
+h2
+{
+	font-size: 1rem;
+	padding-left: 5%;
+}
+h3
+{
+	font-size: 0.8rem;
+}
+
+h4
+{
+	font-size: 1rem;
+}
+
+p
+{
+	font-size: 0.7rem;
+}
+
+.line
+{
+	border-top: 0.5px solid #B2BABB;
+	margin-left: 5%;
+}
+
+.year_place
+{
+	width: 35%;
+	padding-right: 2%;
+}
+
+.content_task
+{
+	width: 65%;
+}
+
+.bullet_point
+{
+	display: none;
+	padding-left: 0;
+}
+
+ul
+{
+	padding-left: 0;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+#recommandation_1
+{
+	width: 50%;
+}
+#recommandation_2
+{
+	width: 50%;
+	padding-left: 7%;
+}
+
+#container_Hobbies
+{
+	padding-top: 7%;
+}
+
+.circle_icon
+{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #424242;
+}
+
+}
+
+/* Smartphones medium screen*/
+@media screen and (max-width: 480px)
+{
+	p
+	{
+		font-size: 0.8rem;
+		text-align: justify;
+	}
+
+	h1
+	{
+		font-size: 2.5rem;
+		padding: 3% 0% 0% 0%;
+	}
+
+	h1 > span
+	{
+		font-weight: lighter;
+		color: #F4F6F7;
+	}
+
+	h2
+	{
+		font-size: 1.2rem;
+		padding-right: 5%;
+	}
+
+	h2 > span
+	{
+		text-decoration: #F4F6F7;
+	}
+
+	h3
+	{
+		font-size: 0.9rem;
+		margin-top: 0;
+	}
+
+	h4
+	{
+		font-size: 1.2rem;
+		background-color: #616161;
+		padding: 1% 0 1% 0;
+	}
+
+	#container_header
+	{
+		flex-direction: column;
+	}
+
+	#container_picture
+	{
+		width: auto;
+	}
+
+	#picture
+	{
+		width: 200px;
+		height: 200px;
+		margin: 13% 10% 8% 10%;
+	}
+
+	img
+	{
+		width: 200px;
+		height: 200px;
+	}
+
+	#container_title
+	{
+		width: 100%;
+		background-color: #B2DFDB;
+	}
+
+	#title
+	{
+		text-align: center;
+		padding-bottom: 15%;
+	}
+
+	#container_article_aside
+	{
+		flex-direction: column;
+	}
+
+	#container_aside
+	{
+		flex-direction: column-reverse;
+		width: auto;
+	}
+
+	#text_presentation
+	{
+		padding: 3% 5% 10% 5%;
+	}
+
+	#text_contact
+	{
+		padding: 3% 5% 4% 5%;
+	}
+
+	#container_project
+	{
+		width: auto;
+		padding-top: 7%;
+	}
+
+	.line
+	{
+		margin-right: 5%;
+		margin-bottom: 7%;
+	}
+
+	.section_article
+	{
+		flex-direction: column;
+	}
+
+	.year_place, .content_task
+	{
+		width: 100%;
+	}
+
+	.bullet_point
+	{
+		display: none;
+	}
+
+	ul
+	{
+		padding-left: 0;
+	}
+
+	li
+	{
+		list-style-type: none;
+	}
+
+	#container_Hobbies
+	{
+		padding-top: 0;
+		width: 100%;
+	}
+
+	#container_icons
+	{
+		padding: 4% 5% 4% 5%;
+	}
+
+	#container_footer_recommandations
+	{
+		display: none;
+	}
+}
+
+/*smartphones small screen*/
+@media screen and (max-width: 320px)
+{
+	p
+	{
+		font-size: 0.8rem;
+	}
+
+	#picture
+	{
+		width: 150px;
+		height: 150px;
+	}
+
+	img
+	{
+		width: 150px;
+		height: 150px;
+	}
+
+	h1
+	{
+		font-size: 2rem;
+	}
+
+	h2
+	{
+		font-size: 0.9rem;
+	}
+
+	h3
+	{
+		font-size: 0.8rem;
+	}
+
+	h4
+	{
+		font-size: 0.9rem;
+	}
+}
