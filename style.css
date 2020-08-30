@@ -162,7 +162,7 @@ a:hover, a:focus
 
 .line
 {
-	border-top: 2px solid #B2BABB;
+	border-top: 2px solid #F8DB55;
 	margin: 0 3% 5% 7%;
 }
 
@@ -454,7 +454,7 @@ li
 	#container_title
 	{
 		width: 100%;
-		background-color: #B2DFDB;
+		background-color: #F8DB55;
 	}
 
 	#title
