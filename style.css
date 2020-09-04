@@ -263,14 +263,14 @@ li
 #container_recommandation
 {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	padding-top: 2%;
 }
 
 #recommandation_2
 {
 	width: 40%;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 
 .margin_bottom
@@ -536,10 +536,7 @@ li
 	{
 		display: none;
 	}
-	.circle_icon
-	{
-		border: none;
-	}
+
 }
 
 /*smartphones small screen*/
