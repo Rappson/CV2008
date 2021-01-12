@@ -276,16 +276,28 @@ li
 	width: 70%;
 	background-color: #F4F6F7;
 }
-
+.img_graphique{
+	display: flex;
+	justify-content: center;
+}
 #graph{
 	width: 120px;
 	height: 80px;
-	transition: all .5s;
-	
 }
 #graph:hover{
 	width: 588px;
 	height: 371px;
+	animation: graphanim .5s;
+}
+@keyframes graphanim{
+	0%{
+		width: 120px;
+		height: 80px;
+	}
+	100%{
+		width: 588px;
+		height: 371px;
+	}
 }
 
 
