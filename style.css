@@ -106,7 +106,6 @@ img
     width: 205px;
     height: 205px;
 }
-
 	/*---- title ----*/
 #container_title
 {
@@ -272,19 +271,18 @@ li
 #container_recommandation
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	padding-top: 2%;
+	width: 70%;
 }
 
-#recommandation_2
-{
-	width: 40%;
-	margin-top: 5%;
+#graph{
+	width: 120px;
+	height: 80px;
 }
-
-.margin_bottom
-{
-	margin-bottom: 1px;
+#graph:hover{
+	width: 588px;
+	height: 371px;
 }
 
 
@@ -308,6 +306,7 @@ img
 	width: 130px;
 	height: 130px;
 }
+
 
 h1
 {
