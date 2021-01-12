@@ -280,6 +280,7 @@ li
 #graph{
 	width: 120px;
 	height: 80px;
+	transition: all .5s;
 	
 }
 #graph:hover{
