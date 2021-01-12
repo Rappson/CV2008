@@ -274,11 +274,13 @@ li
 	flex-direction: column;
 	padding-top: 2%;
 	width: 70%;
+	background-color: #F4F6F7;
 }
 
 #graph{
 	width: 120px;
 	height: 80px;
+	
 }
 #graph:hover{
 	width: 588px;
